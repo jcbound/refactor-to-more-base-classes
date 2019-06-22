@@ -18,6 +18,6 @@ public class Main {
         Girl girl = new Girl("234", 3);
         girl.sayMyName();
         girl.sayMyAge();
-        girl.sayBoy();
+        girl.sayGirl();
     }
 }
