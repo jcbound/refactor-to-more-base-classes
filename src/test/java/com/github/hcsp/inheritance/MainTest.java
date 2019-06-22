@@ -1,6 +1,7 @@
 package com.github.hcsp.inheritance;
 
 import com.github.hcsp.test.helper.ClassInspector;
+import java.util.Set;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -23,7 +24,7 @@ public class MainTest {
         Girl girl = new Girl("234", 3);
         girl.sayMyName();
         girl.sayMyAge();
-        girl.sayBoy();
+        girl.sayGirl();
     }
 
     @Test
