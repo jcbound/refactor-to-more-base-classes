@@ -1,9 +1,9 @@
 package com.github.hcsp.inheritance;
 
-public class Dog  extends Animal {
+public class Dog extends Animal {
 
-    Dog(String name) {
-        this.name = name;
+    public Dog(String name) {
+        super(name);
     }
 
     public void wang() {

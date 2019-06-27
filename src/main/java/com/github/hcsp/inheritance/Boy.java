@@ -1,10 +1,9 @@
 package com.github.hcsp.inheritance;
 
-public class Boy extends Animal {
+public class Boy extends Person {
 
-    Boy(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public Boy(String name, int age) {
+        super(name, age);
     }
 
     public void sayBoy() {
