@@ -1,9 +1,7 @@
 package com.github.hcsp.inheritance;
 
 import com.github.hcsp.test.helper.ClassInspector;
-
 import java.util.Set;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
