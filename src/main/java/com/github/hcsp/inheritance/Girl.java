@@ -2,7 +2,6 @@ package com.github.hcsp.inheritance;
 
 public class Girl extends AdvancedAnimal{
 
-
     public Girl(String name, int age) {
         super(name, age);
     }
