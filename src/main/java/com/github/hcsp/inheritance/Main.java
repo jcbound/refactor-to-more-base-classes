@@ -1,8 +1,6 @@
 package com.github.hcsp.inheritance;
 
 public class Main {
-    protected String name;
-    protected int age;
     public static void main(String[] args) {
         Cat cat = new Cat("ABC");
         cat.meow();
@@ -22,11 +20,4 @@ public class Main {
         girl.sayMyAge();
         girl.sayGirl();
     }
-    protected void sayMyName(){
-        System.out.println("我的名字是" + name);
-    }
-    protected void sayMyAge() {
-        System.out.println("我的年龄是" + age);
-    }
-
 }
