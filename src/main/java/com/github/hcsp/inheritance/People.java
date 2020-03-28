@@ -1,7 +1,7 @@
 package com.github.hcsp.inheritance;
 
 public class People extends Animal {
-    public int age;
+    private int age;
 
     People(String name, int age) {
         super(name);
