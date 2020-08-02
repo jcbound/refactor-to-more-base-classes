@@ -1,8 +1,7 @@
 package com.github.hcsp.inheritance;
 
 public class Girl extends People {
-    private String name;
-    private int age;
+
 
     public Girl(String name, int age) {
         super(name, age);
