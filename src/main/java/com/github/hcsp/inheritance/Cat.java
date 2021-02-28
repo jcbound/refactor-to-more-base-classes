@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class Cat extends Animals{
+public class Cat extends Animals {
 
     public Cat(String name) {
         super(name);
