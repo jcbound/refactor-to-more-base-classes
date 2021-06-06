@@ -1,16 +1,11 @@
 package com.github.hcsp.inheritance;
 
-public class Person {
-    private String name;
+public class Person extends Animal {
     private int age;
 
     public Person(String name, int age) {
-        this.name = name;
+        super(name);
         this.age = age;
-    }
-
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
     }
 
     public void sayMyAge() {
