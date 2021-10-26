@@ -1,10 +1,14 @@
 package com.github.hcsp.inheritance;
 
-import java.lang.reflect.Method;
+public class Cat {
+    private String name;
 
-public class Cat extends Animal{
     public Cat(String name) {
-        super(name);
+        this.name = name;
+    }
+
+    public void sayMyName() {
+        System.out.println("我的名字是" + name);
     }
 
     public void meow() {
